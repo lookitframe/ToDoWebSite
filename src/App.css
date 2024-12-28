@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #6200ea;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.variables {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  gap: 1rem;
+}
+
+.variable-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.variable-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.variable-circle.true {
+  background-color: #4caf50;
+}
+
+.variable-circle.false {
+  background-color: #f44336;
+}
+
+.expression-display {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.expression {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #6200ea;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+.steps {
+  margin: 1rem 0;
+}
+
+.steps h3 {
+  text-align: center;
+}
+
+.steps ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.steps li {
+  background-color: #fff;
+  padding: 0.8rem;
+  margin: 0.5rem auto;
+  max-width: 500px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.result {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.result h2 {
+  color: #6200ea;
+}

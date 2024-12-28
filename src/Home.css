@@ -1,0 +1,107 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .user-info {
+    width: 100%;
+    max-width: 500px;  /* Сделал контейнер больше */
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;  /* Добавил фон для выделения */
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-info p {
+    margin: 5px 0;
+  }
+  
+  .user-info button {
+    background: #ff3b3b;  /* Красная кнопка */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .user-info button:hover {
+    background: #e60000;  /* Потемнение при наведении */
+  }
+  
+  .todo-container {
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-container h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .todo-container form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .todo-container input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .todo-container button {
+    padding: 8px 12px;
+    background: #6a11cb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .todo-container button:hover {
+    background: #2575fc;
+  }
+  
+  .todo-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-container li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    color: #000;  /* Сделал текст черным */
+  }
+  
+  .todo-container li button {
+    background: #ff3b3b;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .todo-container li button:hover {
+    background: #ff1c1c;
+  }
+  
